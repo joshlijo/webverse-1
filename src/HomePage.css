@@ -1,0 +1,78 @@
+/* HomePage.css */
+.page-container {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: black;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: red;
+  color: black;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.organization-name {
+  margin: 0;
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-tabs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.login-tab {
+  padding: 40px;
+  border: none;
+  border-radius: 12px;
+  background-color: #8ee4af;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin: 0 0 10px;
+  color: black;
+}
+
+.login-button {
+  background-color: #8ee4af;
+  color: black;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #5cdb95;
+}

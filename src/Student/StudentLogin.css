@@ -1,0 +1,65 @@
+/* StudentLogin.css */
+.login-container {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-tab {
+  background-color: #8ee4af;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.submit-button {
+  background-color: black;
+  color: #8ee4af;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submit-button:hover {
+  background-color: #5cdb95;
+  color: black;
+}
